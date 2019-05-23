@@ -25,7 +25,7 @@ We hope you copy, use and evolve it. Help us to make the world a better place an
 The main goal for the project is to give visibility and predict an accident with serious injures for the employee, called TRI - Total Recordable Injuriues. As much important as the prediction, the next steps are a big part of the ecosystem. What to do with the information and what action need to be taken is crucial to apply to the field, what was delivered by the analytics team. So, below is a basic diagram regarding the strategy delpoyed:
 
 <div align="center">
-  <img src="https://pictshare.net/gbhvki.png">
+  <img src="https://pictshare.net/z8is6s.png">
 </div>
 
 ## Contribuitors
