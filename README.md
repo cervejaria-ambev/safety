@@ -5,20 +5,6 @@
 -----------------
 # Safety Algorithm
 
-## The project
-
-Safety Algorithm is an AI approach developed by Ambev to have a safer environment and evoid incidents on our plants.
-We hope you copy, use and evolve it. Help us to make the world a better place and reach our dream:
-
-### As is
-
-<div align="center">
-  <img src="https://pictshare.net/gbhvki.png">
-</div>
-
-
-#### *Bringing People Together for a Better World*
-
 ## Who we are
 
 We’re building a company to last, brewing beer and building brands that will continue to bring people together for the next 100 years and beyond. With centuries of brewing history, we’ve seen countless new friendships, connections and experiences built on a shared love of beer.
@@ -26,7 +12,22 @@ We’re building a company to last, brewing beer and building brands that will c
 [Click to read About Ambev](https://www.ambev.com.br/sobre/)
 
 [Click to read Who we are](https://www.ab-inbev.com/who-we-are.html)
-  
+
+## The project
+
+Safety Algorithm is an AI approach developed by Ambev to have a safer environment and evoid incidents on our plants.
+We hope you copy, use and evolve it. Help us to make the world a better place and reach our dream:
+
+#### *Bringing People Together for a Better World*
+
+### As is
+
+The main goal for the project is to give visibility and predict an accident with serious injures for the employee, called TRI - Total Recordable Injuriues. As much important as the prediction, the next steps are a big part of the ecosystem. What to do with the information and what action need to be taken is crucial to apply to the field, what was delivered by the analytics team. So, below is a basic diagram regarding the strategy delpoyed:
+
+<div align="center">
+  <img src="https://pictshare.net/gbhvki.png">
+</div>
+
 ## Contribuitors
 
 :beer: Brayan Crispiano Ksenhuck
