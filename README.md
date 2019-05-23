@@ -10,6 +10,13 @@
 Safety Algorithm is an AI approach developed by Ambev to have a safer environment and evoid incidents on our plants.
 We hope you copy, use and evolve it. Help us to make the world a better place and reach our dream:
 
+### As is
+
+<div align="center">
+  <img src="https://pictshare.net/gbhvki.png">
+</div>
+
+
 #### *Bringing People Together for a Better World*
 
 ## Who we are
@@ -136,7 +143,7 @@ The actual log send by email is similar as shown below:
 
 ### Algorithm
 
-Through the development process we tried several machine learning algorithms, such as random forest, Support vector clustering (SVC), Artificial neural networks (ANN). THe best fit for our model according all data we used was the XPTO.
+Through the development process we tried several machine learning algorithms, such as random forest, Support vector clustering (SVC), Artificial neural networks (ANN). The best fit for our model according all data we used was the XPTO.
 
 Please, fell free to use all options according your dataset.
 
