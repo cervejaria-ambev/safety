@@ -58,7 +58,7 @@ The main goal for the project is to give visibility and predict an accident with
 
 - [x] 6) Removing features using univariate roc_auc
 
-- [x] 7) Log send to Email
+- [x] 7) Log to Email
 
 ## Next Steps
 
@@ -85,7 +85,7 @@ In order to reach a better model further on the algorithm, the data cleasing pro
 - #### Recursive Feature Elimination
   - Importance of the features according to the algorithm
 
-### Log send to Email
+### Log to Email
 
 We developed a solution in order to give visibility about the algorithm. Mainly focused when it is schueduled in a daily basis. That way it is possible to get feedback from the algorithm sent to an e-mail, for example, if all steps was done as expected or even the accuracy and recall.
   
