@@ -62,7 +62,30 @@ We’re building a company to last, brewing beer and building brands that will c
 
 ## Features Details
 
-### Data Cleasing
+### Data Cleasing / Feature Engineering
+
+In order to reach a better model further on the algorithm, the data cleasing process is a necessary step to prepare a dataset where only data that is relevant for the ANSWER that we need as output. Focusing time on analysing the data is crucial. We used a few steps in order to prepare the data, such as: 
+
+#### Seekin' for missing values
+```
+vars_with_na = [var for var in dataset.columns if dataset[var].isnull().sum() > 1]
+```
+#### Removing constant features
+- Where the idea is to remove all features which variance doesn’t meet some threshold (in this case, zero)
+```
+constant_features = [
+    feat for feat in X_train.columns if X_train[feat].std() == 0
+]
+```
+#### Removing quasi constant features
+- The code below removes all features which variance does not meet some threshold (in this case, almost 99%)
+```
+constant_features = [
+    feat for feat in X_train.columns if X_train[feat].std() == 0
+]
+```
+#### Recursive Feature Elimination
+- Importance of the features according to the algorithm
 
 ### Log send to Email
 
