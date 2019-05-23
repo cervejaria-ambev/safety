@@ -74,13 +74,13 @@ The main goal for the project is to give visibility and predict an accident with
 
 In order to reach a better model further on the algorithm, the data cleasing process is a necessary step to prepare a dataset where only data that is relevant for the ANSWER that we need as output. Focusing time on analysing the data is crucial. We used a few steps in order to prepare the data and execute the feature engineering, such as: 
 
-#### Seekin' for missing values
+- #### Seekin' for missing values
 
-#### Removing constant features
-- Here the idea is to remove all features which variance doesn’t meet some threshold (in this case, zero)
+- #### Removing constant features
+  - Here the idea is to remove all features which variance doesn’t meet some threshold (in this case, zero)
 
-#### Removing quasi constant features
-- The code below removes all features which variance does not meet some threshold (in this case, almost 99%)
+- #### Removing quasi constant features
+  - The code below removes all features which variance does not meet some threshold (in this case, almost 99%)
 
 #### Recursive Feature Elimination
 - Importance of the features according to the algorithm
