@@ -62,23 +62,9 @@ We’re building a company to last, brewing beer and building brands that will c
 
 ## Features Details
 
-### 1) Feature engineering
-- Categorical features
-- Number of each different categorical category
-- Missing values 
-  Seekin' for missing values
+### Data Cleasing
 
-### 2) Train Test Split
-
-### 3) Removing constant features
-
-### 4) Removing quasi constant features
-
-### 5) Removing correlated features
-
-### 6) Removing features using univariate roc_auc
-
-### 7) Log send to Email
+### Log send to Email
 
 We developed a solution in order to give visibility about the algorithm. Mainly focused when it is schueduled in a daily basis. That way it is possible to get feedback from the algorithm sent to an e-mail, for example, if all steps was done as expected or even the accuracy and recall.
   
@@ -134,6 +120,16 @@ The actual log send by email is similar as shown below:
 <div align="center">
   <img src="https://pictshare.net/goynzm.png">
 </div>
+
+### Algorithm
+
+Through the development process we tried several machine learning algorithms, such as random forest, Support vector clustering (SVC), Artificial neural networks (ANN). THe best fit for our model according all data we used was the XPTO.
+
+Please, fell free to use all options according your dataset.
+
+For reference, please read the following:
+
+[Scikit Python Library](https://scikit-learn.org/stable/supervised_learning.html#supervised-learning)
 
 ## License
 
