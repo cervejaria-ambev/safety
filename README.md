@@ -82,8 +82,8 @@ In order to reach a better model further on the algorithm, the data cleasing pro
 - #### Removing quasi constant features
   - The code below removes all features which variance does not meet some threshold (in this case, almost 99%)
 
-#### Recursive Feature Elimination
-- Importance of the features according to the algorithm
+- #### Recursive Feature Elimination
+  - Importance of the features according to the algorithm
 
 ### Log send to Email
 
