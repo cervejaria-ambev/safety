@@ -20,11 +20,38 @@ We hope you copy, use and evolve it. Help us to make the world a better place an
 
 #### *Bringing People Together for a Better World*
 
-The main goal for the project is predict unsafe conditions that could lead to an accident, called TRI - Total Recordable Injuriues, and inform the breweries with any kind of risk. As much important as the prediction, the next steps are a big part of the ecosystem. What to do with the information and what action need to be taken is crucial to apply to the field. So, below is a basic diagram regarding the strategy delpoyed:
+The main goal for the project is predict unsafe conditions that could lead to an accident, called TRI - Total Recordable Injuriues, and help breweries to have visibility if any accident is going to happen soon.. As much important as the prediction, the next steps are a big part of the ecosystem. What to do with the information and what action need to be taken is crucial to apply to the field. So, below is a basic diagram regarding the strategy delpoyed:
 
 <div align="center">
   <img src="https://pictshare.net/z8is6s.png">
 </div>
+
+Where:
+
+1) Databse
+- Data from different sources are used, such as:
+  - People
+  - Brewery Infos
+  - Accidents and occurrences
+  - Environment Data
+2) Artificial Intelligence
+- Algorithm to predict accidents
+3) Dashboard
+- Analytic Dashbaord in order to deliver visibility to business
+4) Alerts
+- Coefficient analysis
+5) Identify
+- After alert is received, it is necessary to check safety procedures on site.
+6) Classify
+- The issue is classified 
+7) Action
+- Actionis taken after analysis
+8) Check
+- Evaluate
+
+Ideally after steps above, all info gathered from steps 5 to 8, by procedure, has to be insert to a system. This system is a source for the algorithm, so the system has this feedback in order to evaluate if it was a good / bad prodiction. 
+
+There are 
 
 ## Contribuitors
 
