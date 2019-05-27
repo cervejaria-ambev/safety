@@ -101,6 +101,18 @@ For reference, please read the following:
 
 ## How to install
 
+To install the current release:
+
+ - pip install safety
+```
+do stuff
+```
+
+ - Do more stuff
+```
+do stuff
+```
+
 ## Features Details
 
 ### Data Cleasing / Feature Engineering
