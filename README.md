@@ -51,8 +51,6 @@ Where:
 
 Ideally after steps above, all info gathered from steps 5 to 8, by procedure, has to be insert to a system. This system is a source for the algorithm, so the system has this feedback in order to evaluate if it was a good / bad prodiction. 
 
-There are 
-
 ## Contribuitors
 
 :beer: Brayan Crispiano Ksenhuck
