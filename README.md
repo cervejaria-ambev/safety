@@ -18,7 +18,7 @@ We’re building a company to last, brewing beer and building brands that will c
 Safety Algorithm is an AI approach developed by Ambev to have a safer environment and avoid incidents on our plants.
 We hope you copy, use and evolve it. Help us to make the world a better place and reach our dream:
 
-#### *Bringing People Together for a Better World*
+> Bringing People Together for a Better World
 
 The main goal for the project is predict unsafe conditions that could lead to an accident, called TRI - Total Recordable Injuriues, and help breweries to have visibility if any accident is going to happen soon.. As much important as the prediction, the next steps are a big part of the ecosystem. What to do with the information and what action need to be taken is crucial to apply to the field. So, below is a basic diagram regarding the strategy delpoyed:
 
@@ -51,6 +51,20 @@ Where:
 
 Ideally after steps above, all info gathered from steps 5 to 8, by procedure, has to be insert to a system. This system is a source for the algorithm, so the system has this feedback in order to evaluate if it was a good / bad prodiction. 
 
+## Importante Notes
+
+:arrow_right: The dataset **DOES NOT** reflect facts. All data was changed with simulated values.
+
+:arrow_right: Algorithm Choice
+
+Through the development process we tried several machine learning algorithms, such as random forest, Support vector clustering (SVC), Artificial neural networks (ANN). The best fit for our model according all data we used was the XPTO.
+
+Please, fell free to use all options according your dataset.
+
+For reference, please read the following:
+
+[Scikit Python Library](https://scikit-learn.org/stable/supervised_learning.html#supervised-learning)
+
 ## Contribuitors
 
 :beer: Brayan Crispiano Ksenhuck
@@ -67,7 +81,7 @@ Ideally after steps above, all info gathered from steps 5 to 8, by procedure, ha
 
 :beer: Thiago Lechuga
 
-## Features
+## Algorithm Features
 
 - [x] 1) Feature engineering
 
@@ -83,13 +97,9 @@ Ideally after steps above, all info gathered from steps 5 to 8, by procedure, ha
 
 - [x] 7) Log to Email
 
-## Next Steps
+## Requirements
 
-- [ ] Finish my changes
-
-- [ ] Push my commits to GitHub
-
-- [ ] Open a pull request
+## How to install
 
 ## Features Details
 
@@ -165,15 +175,13 @@ The actual log send by email is similar as shown below:
   <img src="https://pictshare.net/goynzm.png">
 </div>
 
-### Algorithm
+## Next Steps
 
-Through the development process we tried several machine learning algorithms, such as random forest, Support vector clustering (SVC), Artificial neural networks (ANN). The best fit for our model according all data we used was the XPTO.
+- [ ] Finish my changes
 
-Please, fell free to use all options according your dataset.
+- [ ] Push my commits to GitHub
 
-For reference, please read the following:
-
-[Scikit Python Library](https://scikit-learn.org/stable/supervised_learning.html#supervised-learning)
+- [ ] Open a pull request
 
 ## License
 
