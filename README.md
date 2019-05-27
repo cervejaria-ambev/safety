@@ -51,20 +51,6 @@ Where:
 
 Ideally after steps above, all info gathered from steps 5 to 8, by procedure, has to be insert to a system. This system is a source for the algorithm, so the system has this feedback in order to evaluate if it was a good / bad prodiction. 
 
-## Important Notes
-
-:heavy_exclamation_mark: The dataset **DOES NOT** reflect facts. All data was changed with simulated values.
-
-:heavy_exclamation_mark: Algorithm Choice
-
-Through the development process we tried several machine learning algorithms, such as random forest, Support vector clustering (SVC), Artificial neural networks (ANN). The best fit for our model according all data we used was the XPTO.
-
-Please, fell free to use all options according your dataset.
-
-For reference, please read the following:
-
-[Scikit Python Library](https://scikit-learn.org/stable/supervised_learning.html#supervised-learning)
-
 ## Contribuitors
 
 :beer: Brayan Crispiano Ksenhuck
@@ -80,6 +66,21 @@ For reference, please read the following:
 :beer: Renata Cristina Gutierres Castanha
 
 :beer: Thiago Lechuga
+
+## Important Notes
+
+:heavy_exclamation_mark: The dataset **DOES NOT** reflect facts. All data was changed with simulated values.
+
+:heavy_exclamation_mark: Algorithm Choice
+
+Through the development process we tried several machine learning algorithms, such as random forest, Support vector clustering (SVC), Artificial neural networks (ANN). The best fit for our model according all data we used was the XPTO.
+
+Please, fell free to use all options according your dataset.
+
+For reference, please read the following:
+
+[Scikit Python Library](https://scikit-learn.org/stable/supervised_learning.html#supervised-learning)
+
 
 ## Algorithm Features
 
