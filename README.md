@@ -28,25 +28,25 @@ The main goal for the project is predict unsafe conditions that could lead to an
 
 Where:
 
-1) Databse
+#### 1) Databse
 - Data from different sources are used, such as:
   - People
   - Brewery Infos
   - Accidents and occurrences
   - Environment Data
-2) Artificial Intelligence
+#### 2) Artificial Intelligence
 - Algorithm to predict accidents
-3) Dashboard
+#### 3) Dashboard
 - Analytic Dashbaord in order to deliver visibility to business
-4) Alerts
+#### 4) Alerts
 - Coefficient analysis
-5) Identify
+#### 5) Identify
 - After alert is received, it is necessary to check safety procedures on site.
-6) Classify
+#### 6) Classify
 - The issue is classified 
-7) Action
+#### 7) Action
 - Actionis taken after analysis
-8) Check
+#### 8) Check
 - Evaluate
 
 Ideally after steps above, all info gathered from steps 5 to 8, by procedure, has to be insert to a system. This system is a source for the algorithm, so the system has this feedback in order to evaluate if it was a good / bad prodiction. 
