@@ -11,7 +11,7 @@ We’re building a company to last, brewing beer and building brands that will c
 
 [Click to read About Ambev](https://www.ambev.com.br/sobre/)
 
-[Click to read Who we are](https://www.ab-inbev.com/who-we-are.html)
+[Click to read About AB-Inbev](https://www.ab-inbev.com/who-we-are.html)
 
 ## The project
 
