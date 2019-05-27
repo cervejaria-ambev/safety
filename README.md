@@ -53,9 +53,9 @@ Ideally after steps above, all info gathered from steps 5 to 8, by procedure, ha
 
 ## Importante Notes
 
-:arrow_right: The dataset **DOES NOT** reflect facts. All data was changed with simulated values.
+:heavy_exclamation_mark: The dataset **DOES NOT** reflect facts. All data was changed with simulated values.
 
-:arrow_right: Algorithm Choice
+:heavy_exclamation_mark: Algorithm Choice
 
 Through the development process we tried several machine learning algorithms, such as random forest, Support vector clustering (SVC), Artificial neural networks (ANN). The best fit for our model according all data we used was the XPTO.
 
