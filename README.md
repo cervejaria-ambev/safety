@@ -18,7 +18,7 @@ We’re building a company to last, brewing beer and building brands that will c
 Safety Algorithm is an AI approach developed by Ambev to have a safer environment and avoid incidents on our plants.
 We hope you copy, use and evolve it. Help us to make the world a better place and reach our dream:
 
-> Bringing People Together for a Better World
+> **Bringing People Together for a Better World
 
 The main goal for the project is predict unsafe conditions that could lead to an accident, called TRI - Total Recordable Injuriues, and help breweries to have visibility if any accident is going to happen soon.. As much important as the prediction, the next steps are a big part of the ecosystem. What to do with the information and what action need to be taken is crucial to apply to the field. So, below is a basic diagram regarding the strategy delpoyed:
 
