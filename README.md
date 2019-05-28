@@ -28,7 +28,7 @@ The main goal for the project is predict unsafe conditions that could lead to an
 
 Where:
 
-#### 1) Databse
+#### 1) Database
 - Data from different sources are used, such as:
   - People
   - Brewery Infos
