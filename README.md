@@ -49,7 +49,7 @@ Where:
 #### Check
 - Evaluate
 
-Ideally after steps above, all info gathered from steps 5 to 8, by procedure, has to be insert to a system. This system is a source for the algorithm, so the system has this feedback in order to evaluate if it was a good / bad prodiction. 
+Ideally after steps above, all info gathered from steps 5 to 8, by procedure, has to be insert to a system. This system is a source for the algorithm, so it has this feedback in order to evaluate if it was a good / bad prodiction. 
 
 Also, we developed a windows batch to schedule running the script on a daily basis. 
 
