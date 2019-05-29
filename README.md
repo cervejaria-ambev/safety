@@ -45,7 +45,7 @@ Where:
 #### Classify
 - The issue is classified 
 #### Action
-- Actionis taken after analysis
+- Actions taken after analysis
 #### Check
 - Evaluate
 
