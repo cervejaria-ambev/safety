@@ -101,25 +101,31 @@ For reference, please read the following:
 
 ## Algorithm Features
 
+- [x] Procedures to Avoid Overfit
+
 - [x] Feature engineering
 
 - [x] Train Test Split
 
-- [x] Removing constant features
+- [x] Removed constant features
 
-- [x] Removing quasi constant features
+- [x] Removed quasi constant features
 
-- [x] Removing correlated features
+- [x] Removed correlated features
 
-- [x] Removing features using univariate roc_auc
+- [x] Removed features using univariate roc_auc
 
 - [x] Log to Email
 
 ## Requirements
 
-## How to install
+### - A
+### - B
+### - C
 
-To install the current release:
+## How to use
+
+To use the current release:
 
  - pip install safety
 ```
