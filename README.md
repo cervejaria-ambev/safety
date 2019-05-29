@@ -20,7 +20,7 @@ We hope you copy, use and evolve it. Help us to make the world a better place an
 
 > **Bringing People Together for a Better World**
 
-The main goal for the project is predict unsafe conditions that could lead to an accident, called TRI - Total Recordable Injuriues, and help breweries to have visibility if any accident is going to happen soon.. As much important as the prediction, the next steps are a big part of the ecosystem. What to do with the information and what action need to be taken is crucial to apply to the field. So, below is a basic diagram regarding the strategy delpoyed:
+The main goal for the project is predict unsafe conditions that could lead to an accident, called TRI - Total Recordable Injuriues. Thefore, help breweries to have visibility if any accident is going to happen soon. As much important as the prediction, the next steps are a big part of the ecosystem. What to do with the information and what action need to be taken is crucial to apply to the field. So, below is a basic diagram regarding the strategy delpoyed:
 
 <div align="center">
   <img src="https://pictshare.net/z8is6s.png">
@@ -28,28 +28,45 @@ The main goal for the project is predict unsafe conditions that could lead to an
 
 Where:
 
-#### 1) Database
+#### Database
 - Data from different sources are used, such as:
   - People
   - Brewery Infos
   - Accidents and occurrences
   - Environment Data
-#### 2) Artificial Intelligence
+#### Artificial Intelligence
 - Algorithm to predict accidents
-#### 3) Dashboard
+#### Dashboard
 - Analytic Dashbaord in order to deliver visibility to business
-#### 4) Alerts
+#### Alerts
 - Coefficient analysis
-#### 5) Identify
+#### Identify
 - After alert is received, it is necessary to check safety procedures on site.
-#### 6) Classify
+#### Classify
 - The issue is classified 
-#### 7) Action
+#### Action
 - Actionis taken after analysis
-#### 8) Check
+#### Check
 - Evaluate
 
 Ideally after steps above, all info gathered from steps 5 to 8, by procedure, has to be insert to a system. This system is a source for the algorithm, so the system has this feedback in order to evaluate if it was a good / bad prodiction. 
+
+Also, we developed a windows batch to schedule running the script on a daily basis. 
+
+### Backlog
+
+The first version of this project was developed using cloud services, such as Azure plataform from Microsft. We had to first analyse with business all information that might be most relevant and then, we had to automate all data from different sources. It is important to mention that this project was only able due a long term vision by Ambev, that along years have been working to prepare data to be used.
+
+There are fews mandatory steps in order to deliver a solution based on prediction:
+
+1) Get data 
+- Structured or not.
+2) Start messing around with it
+- Develop Data Visualization. It will help get initial insights.
+3) Business Intelligence team.
+- A team focused only on validation of hypotheses and real generation of value by data. 
+4) Advanced Analytics
+- Models and Prediction AIs
 
 ## Contribuitors
 
@@ -84,19 +101,19 @@ For reference, please read the following:
 
 ## Algorithm Features
 
-- [x] 1) Feature engineering
+- [x] Feature engineering
 
-- [x] 2) Train Test Split
+- [x] Train Test Split
 
-- [x] 3) Removing constant features
+- [x] Removing constant features
 
-- [x] 4) Removing quasi constant features
+- [x] Removing quasi constant features
 
-- [x] 5) Removing correlated features
+- [x] Removing correlated features
 
-- [x] 6) Removing features using univariate roc_auc
+- [x] Removing features using univariate roc_auc
 
-- [x] 7) Log to Email
+- [x] Log to Email
 
 ## Requirements
 
