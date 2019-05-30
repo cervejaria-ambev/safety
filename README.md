@@ -94,15 +94,6 @@ This prediction code might be way advanced according your As Is. But keep in min
 
 :heavy_exclamation_mark: The dataset **DOES NOT** reflect facts. All data was changed with simulated values.
 
-:heavy_exclamation_mark: Algorithm Choice
-
-Through the development process we tried several machine learning algorithms, such as random forest, Support vector clustering (SVC), Artificial neural networks (ANN). The best fit for our model according all data we used was the XPTO.
-
-Please, fell free to use all options according your dataset.
-
-For reference, please read the following:
-
-[Scikit Python Library](https://scikit-learn.org/stable/supervised_learning.html#supervised-learning)
 
 ## Requirements
 
@@ -207,6 +198,16 @@ The actual log send by email is similar as shown below:
 <div align="center">
   <img src="https://pictshare.net/goynzm.png">
 </div>
+
+- [x] **Algorithm Choice** 
+
+Through the development process we tried several machine learning algorithms, such as random forest, Support vector clustering (SVC), Artificial neural networks (ANN). The best fit for our model according all data we used was the XPTO.
+
+Please, fell free to use all options according your dataset.
+
+For reference, please read the following:
+
+[Scikit Python Library](https://scikit-learn.org/stable/supervised_learning.html#supervised-learning)
 
 ## Results
 
