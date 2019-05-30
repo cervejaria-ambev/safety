@@ -123,7 +123,7 @@ do stuff
 
 - [x] **Data Cleasing / Feature Engineering**
 
-In order to reach a better model further on the algorithm, the data cleasing process is a necessary step to prepare a dataset where only data that is relevant for the ANSWER that we need as output. Focusing time on analysing the data is crucial. We used a few steps in order to prepare the data and execute the feature engineering, such as: 
+In order to reach a better model further on the algorithm, the data cleasing process is a necessary step to prepare a dataset where only data that is relevant for the ANSWER is included. Focusing time on analysing the data is crucial. We used a few steps in order to prepare the data and execute the feature engineering, such as: 
 
 - #### Seekin' for missing values
 
