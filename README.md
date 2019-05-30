@@ -51,7 +51,7 @@ Where:
 #### Check
 - Evaluate
 
-Ideally after steps above, all info gathered from steps 5 to 8, by procedure, has to be insert to a system. This system is a source for the algorithm, so it has this feedback in order to evaluate if it was a good / bad prodiction. 
+Ideally after steps above, all info gathered from steps 5 to 8, by procedure, has to be insert to a system. This system is also an input source for the algorithm, so it has this feedback in order to evaluate if it was a good / bad prodiction. 
 
 We are here, trough this opensource code, trying to colaborate with the community. It might not be the perfect solution for all uses, but all necessary tools that you might need in order to do somenthing similiar is implemented in the code.
 
