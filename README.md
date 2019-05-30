@@ -55,7 +55,7 @@ Ideally after steps above, all info gathered from steps 5 to 8, by procedure, ha
 
 ### Backlog
 
-The first version of this project was developed using cloud services, such as Azure plataform from Microsft. We had to first analyse with business all informations that might be most relevant and then, we had to automate all reports from different sources. The algorithm uses those automated reports as inputs, then handled through R, SQL and python languages. As output from the algorithm, there is a csv file feeding a structured capable to update a database on cloud. A dashboard is after that, plugged to this cloud database.
+The first version of this project was developed using cloud services, such as Azure plataform from Microsft. We had to first analyse with business all informations that might be most relevant and then, automate all reports from different sources. The algorithm uses those automated reports as inputs, then handled through R, SQL and python languages. As output from the algorithm, there is a csv file feeding a structured capable to update a database on cloud. A dashboard is after that, plugged to this cloud database.
 
 It is important to mention that this project was only able due a long term vision by Ambev, that along years have been working to prepare data to be used.
 
