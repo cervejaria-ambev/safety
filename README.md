@@ -136,24 +136,20 @@ In order to reach a better model further on the algorithm, the data cleasing pro
 
 - #### Seekin' for missing values
 
-- #### Removing constant features
+- #### Removed constant features
   - Here the idea is to remove all features which variance doesn’t meet some threshold (in this case, zero)
 
-- #### Removing quasi constant features
+- #### Removed quasi constant features
   - The code below removes all features which variance does not meet some threshold (in this case, almost 99%)
 
 - #### Recursive Feature Elimination
   - Importance of the features according to the algorithm
-  
+
+- #### Removed correlated features
+
+- #### Recursive Feature Elimination - using univariate roc_auc
+
 - [x] **Train Test Split**
-
-- [x] **Removed constant features**
-
-- [x] **Removed quasi constant features**
-
-- [x] **Removed correlated features**
-
-- [x] **Removed features using univariate roc_auc**
 
 - [x] **Log to Email**
 
@@ -211,6 +207,8 @@ The actual log send by email is similar as shown below:
 <div align="center">
   <img src="https://pictshare.net/goynzm.png">
 </div>
+
+## Results
 
 ## Next Steps
 
