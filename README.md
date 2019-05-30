@@ -25,7 +25,7 @@ The main goal for the project is predict unsafe conditions that could lead to an
 As much important as the prediction, the next steps are a big part of the ecosystem. What to do with the information and what action need to be taken is crucial to apply to the field. So, below is a basic diagram regarding the strategy delpoyed:
 
 <div align="center">
-  <img src="https://pictshare.net/z8is6s.png">
+  <img src="https://pictshare.net/r2yaan.png">
 </div>
 
 Where:
