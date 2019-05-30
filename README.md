@@ -28,49 +28,7 @@ As much important as the prediction, the next steps are a big part of the ecosys
   <img src="https://pictshare.net/r2yaan.png">
 </div>
 
-Where:
-
-- Database
-
-Data from different sources are used, such as:
-
-People
-
-Brewery Infos
-
-Accidents and occurrences
-
-Environment Data
-  
-- Machine Learning
-
-Algorithm to predict accidents
-
-- Dashboard
-
-Analytic Dashbaord in order to deliver visibility to business
-
-- Alerts
-
-Coefficient analysis
-
-- Identify
-
-After alert is received, it is necessary to check safety procedures on site.
-
-- Classify
-
-The issue is classified 
-
-- Action
-
-Actions taken after analysis
-
-- Check
-
-Evaluate
-
-Ideally after steps above, all info gathered from steps 5 to 8, by procedure, has to be insert to a system. This system is also an input source for the algorithm, so it has this feedback in order to evaluate if it was a good / bad prodiction. 
+Ideally after steps above all info gathered, by procedure, has to be insert to a system. This system is also an input source for the algorithm, so it has this feedback in order to evaluate if it was a good / bad prodiction. 
 
 We are here, trough this opensource code, trying to colaborate with the community. It might not be the perfect solution for all uses, but all necessary tools that you might need in order to do somenthing similiar is implemented in the code, a few examples can be seen below at section "Project Features"
 
