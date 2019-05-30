@@ -53,6 +53,8 @@ Where:
 
 Ideally after steps above, all info gathered from steps 5 to 8, by procedure, has to be insert to a system. This system is a source for the algorithm, so it has this feedback in order to evaluate if it was a good / bad prodiction. 
 
+We are here, trough this opensource code, trying to colaborate with the community. It might not be the perfect solution for all uses, but all necessary tools that you might need in order to do somenthing similiar is implemented in the code.
+
 ### Backlog
 
 The first version of this project was developed using cloud services, such as Azure plataform from Microsft. We had to first analyse with business all informations that might be most relevant and then, automate all reports from different sources. The algorithm uses those automated reports as inputs, then handled through R, SQL and python languages. As output from the algorithm, there is a csv file feeding a structured capable to update a database on cloud. A dashboard is after that, plugged to this cloud database.
@@ -70,19 +72,21 @@ There are fews mandatory steps in order to deliver a solution based on predictio
 4) Advanced Analytics
 - Models and Prediction AIs
 
+This prediction code might be way advanced according your As Is. But keep in mind all the benefits that could be obtained when a long term vision is made. This project shows only one possibility, there are plenty other ideas that can be developed.
+
 ## Contribuitors
 
-:beer: Brayan Crispiano Ksenhuck
+:beer: Brayan C. Ksenhuck
 
-:beer: Cassio Oliveira Medeiros
+:beer: Cassio O. Medeiros
 
-:beer: Fabricio Oliveira Bezerra
+:beer: Fabricio O. Bezerra
 
-:beer: Leonardo Gonçalves Rigueto
+:beer: Leonardo G.Rigueto
 
-:beer: Mario Vieira 
+:beer: Mario E. M. Vieira 
 
-:beer: Renata Cristina Gutierres Castanha
+:beer: Renata C. G. Castanha
 
 :beer: Thiago Lechuga
 
