@@ -33,9 +33,13 @@ Where:
 - Database
 
 Data from different sources are used, such as:
+
 People
+
 Brewery Infos
+
 Accidents and occurrences
+
 Environment Data
   
 - Machine Learning
