@@ -126,7 +126,7 @@ do stuff
 ```
 do stuff
 ```
-## Algorithm Features
+## Project Features
 
 - [x] **Procedures to Avoid Overfit**
 
