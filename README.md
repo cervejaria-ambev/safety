@@ -74,12 +74,9 @@ This prediction code might be way advanced according your As Is. But keep in min
 
 ## Requirements
 
-#### Python 3.7 or later
-- AA
-#### B
-- AA
-#### C
-- AA
+#### Operational System Windows, Linux or macOS
+#### Python 3.6 or later
+#### Jupyter notebook 5.7.8 or later
 
 ## How to use
 
@@ -187,6 +184,28 @@ For reference, please read the following:
 [Scikit Python Library](https://scikit-learn.org/stable/supervised_learning.html#supervised-learning)
 
 ## Results
+
+Comparative alternatives
+
+### Metrics
+
+#### Accuracy
+The accuracy is intuitively the ability of correctly classifier samples. The best value is 1 and the worst value is 0.
+#### Precision
+The precision is intuitively the ability of the classifier not to label as positive a sample that is negative. The best value is 1 and the worst value is 0.
+#### Recall
+The recall is intuitively the ability of the classifier to find all the positive samples. The best value is 1 and the worst value is 0.
+#### F1
+The F1 score can be interpreted as a weighted average of the precision and recall, where an F1 score reaches its best value at 1 and worst score at 0.
+#### AUC
+Compute Area Under the Receiver Operating Characteristic Curve (ROC AUC) from prediction scores. The best value is 1 and the worst value is 0.
+#### MCC
+The MCC is in essence a correlation coefficient value between -1 and +1. A coefficient of +1 represents a perfect prediction, 0 an average random prediction and -1 an inverse prediction.
+
+The final Results:
+
+https://pictshare.net/uhc2gp.png
+
 
 ## Next Steps
 
