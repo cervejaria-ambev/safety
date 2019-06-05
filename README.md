@@ -102,6 +102,8 @@ After hit the run button on the toolbar up as can be shown below highlighted by 
 
 ## Project Features
 
+- [x] **Exploraty Data Analysis**
+
 - [x] **Procedures to Avoid Overfit**
 
 - [x] **Data Cleasing / Feature Engineering**
@@ -114,7 +116,7 @@ In order to reach a better model further on the algorithm, the data cleasing pro
   - Here the idea is to remove all features which variance doesn’t meet some threshold (in this case, zero)
 
 - #### Removed quasi constant features
-  - The code below removes all features which variance does not meet some threshold (in this case, almost 99%)
+  - The below removes all features which variance doesn’t meet some threshold (in this case, zero)
 
 - #### Recursive Feature Elimination
   - Importance of the features according to the algorithm
@@ -123,8 +125,12 @@ In order to reach a better model further on the algorithm, the data cleasing pro
 
 - #### Recursive Feature Elimination - using univariate roc_auc
 
-- [x] **Train Test Split**
+- [x] **Feature Scaling**
 
+- [x] **Models training**
+  
+- [x] **Evaluate models**
+  
 - [x] **Log to Email**
 
 We developed a solution in order to give visibility about the algorithm. Mainly focused when it is schueduled in a daily basis. That way it is possible to get feedback from the algorithm sent to an e-mail, for example, if all steps was done as expected or even the accuracy and recall.
@@ -183,7 +189,7 @@ The actual log send by email is similar as shown below:
 
 ## Results
 
-Through the development process we tried several machine learning algorithms, such as random forest, Support vector clustering (SVC), Artificial neural networks (ANN). We have set the train test database to 20% from original database.
+Through the development process we tried several machine learning algorithms, such as random forest, Support vector clustering (SVC), Artificial neural networks (ANN). We have set the train test database to 20% from original database. All further details can be found directly on the code.
 
 Please, fell free to use all options according your dataset.
 
