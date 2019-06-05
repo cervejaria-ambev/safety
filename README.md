@@ -165,9 +165,7 @@ Make sure to add the feedback from algorithm as needed as example above.
 
 The actual log send by email is similar as shown below:
   
-<div align="center">
-  <img src="https://pictshare.net/goynzm.png">
-</div>
+![68747470733a2f2f7069637473686172652e6e65742f676f796e7a6d2e706e67](https://user-images.githubusercontent.com/5126535/58933602-38ab8e00-873e-11e9-8423-2189d029933d.png)
 
 - [x] **Algorithm Choice** 
 
