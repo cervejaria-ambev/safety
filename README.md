@@ -1,6 +1,4 @@
-<div align="center">
-  <img src="https://pasteboard.co/IhXGT1m.png">
-</div>
+![y3kkqa](https://user-images.githubusercontent.com/5126535/58933543-f5511f80-873d-11e9-94e5-e8938032ce35.png)
 
 -----------------
 # Safety Algorithm
@@ -24,9 +22,7 @@ The main goal for the project is predict unsafe conditions that could lead to an
 
 As much important as the prediction, the next steps are a big part of the ecosystem. What to do with the information and what action need to be taken is crucial to apply to the field. So, below is a basic diagram regarding the strategy delpoyed:
 
-<div align="center">
-  <img src="https://pictshare.net/r2yaan.png">
-</div>
+![safety image](https://user-images.githubusercontent.com/5126535/58933558-09951c80-873e-11e9-9b65-6e78669c7b51.png)
 
 Ideally after steps above all info gathered, by procedure, has to be insert to a system. This system is also an input source for the algorithm, so it has this feedback in order to evaluate if it was a good / bad prodiction. 
 
@@ -204,9 +200,7 @@ The MCC is in essence a correlation coefficient value between -1 and +1. A coeff
 
 The final Results:
 
-<div align="center">
-  <img src="https://pictshare.net/uhc2gp.png">
-</div>
+![68747470733a2f2f7069637473686172652e6e65742f7568633267702e706e67](https://user-images.githubusercontent.com/5126535/58933584-23cefa80-873e-11e9-8e5c-3921c01c7f1d.png)
 
 ## Next Steps
 
