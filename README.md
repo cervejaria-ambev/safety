@@ -208,9 +208,6 @@ The final Results:
   <img src="https://pictshare.net/uhc2gp.png">
 </div>
 
-
-
-
 ## Next Steps
 
 - [ ] Finish my changes
