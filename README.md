@@ -81,7 +81,7 @@ This prediction code might be way advanced according your As Is. But keep in min
 
 Make sure to succeed on all requirements above mentioned. 
 
-Download the files on your computer and double check if all data is on the same folder. Remember to change te code below according file's name or even directory:
+Download the files on your computer and double check if .csv file is on the same folder. Remember to change te code below according file's name or even directory:
 
 ```
 dataset = pd.read_csv('base.csv', encoding='ISO-8859-1', sep=';')
@@ -91,11 +91,11 @@ For more further info, please read this article:
 
 [Handling .csv file on Python](https://docs.python.org/2/library/csv.html)
 
-If you are using Jupyter Notebook, click on the first line which cna be identified by the [1] on the left can shown below:
+If you are using Jupyter Notebook, click on the first line which can be identified by the *In [1]:* on the left can shown below highlighted by the red box:
 
 ![line](https://user-images.githubusercontent.com/5126535/58935100-c5584b00-8742-11e9-8b70-e4f9bf537b43.png)
 
-After hit the run button on the toolbar up as shown below:
+After hit the run button on the toolbar up as can be shown below highlighted by the red box:
 
 ![run](https://user-images.githubusercontent.com/5126535/58935146-f20c6280-8742-11e9-8292-25b095ac022e.png)
 
@@ -212,16 +212,17 @@ The MCC is in essence a correlation coefficient value between -1 and +1. A coeff
 
 The best fit for our model according all data we used was the the combinacion of classifier SVC and hybrid sampling SMOTEENN. SMOTEENN combine over and under-sampling using SMOTE and Edited Nearest Neighbours.
 
+### The final Results:
+
 Therefore we finally applied the algorithm on the **test** dataset
 
-The final Results:
+**accuracy**  0.76859 (76,86%)
+**precision:** 0.10608 (10,61%)
+**recall:**    0.73761 (73,76%)
+**f1:**        0.18548 (18,55%)
+**auc:**       0.75367 (75,37%)
+**mcc:**       0.21793 (21,79%)
 
-accuracy:  0.76859
-precision: 0.10608
-recall:    0.73761
-f1:        0.18548
-auc:       0.75367
-mcc:       0.21793
 ## Next Steps
 
 - [ ] Finish my changes
