@@ -223,10 +223,15 @@ The best fit for our model according all data we used was the the combinacion of
 Therefore we finally applied the algorithm on the **test** dataset
 
 **accuracy**  0.76859 (76,86%)
+
 **precision:** 0.10608 (10,61%)
+
 **recall:**    0.73761 (73,76%)
+
 **f1:**        0.18548 (18,55%)
+
 **auc:**       0.75367 (75,37%)
+
 **mcc:**       0.21793 (21,79%)
 
 ## Next Steps
