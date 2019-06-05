@@ -201,19 +201,30 @@ These are comparative results obtained according tests done based on our **train
 
 ![68747470733a2f2f7069637473686172652e6e65742f7568633267702e706e67](https://user-images.githubusercontent.com/5126535/58933584-23cefa80-873e-11e9-8e5c-3921c01c7f1d.png)
 
-####Where:
+#### Where:
 
 **Accuracy**
+
 The accuracy is intuitively the ability of correctly classifier samples. The best value is 1 and the worst value is 0.
+
 **Precision**
+
 The precision is intuitively the ability of the classifier not to label as positive a sample that is negative. The best value is 1 and the worst value is 0.
+
 **Recall**
+
 The recall is intuitively the ability of the classifier to find all the positive samples. The best value is 1 and the worst value is 0.
+
 **F1**
+
 The F1 score can be interpreted as a weighted average of the precision and recall, where an F1 score reaches its best value at 1 and worst score at 0.
+
 **AUC**
+
 Compute Area Under the Receiver Operating Characteristic Curve (ROC AUC) from prediction scores. The best value is 1 and the worst value is 0.
+
 **MCC**
+
 The MCC is in essence a correlation coefficient value between -1 and +1. A coefficient of +1 represents a perfect prediction, 0 an average random prediction and -1 an inverse prediction.
 
 ### The final Results:
