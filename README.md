@@ -203,29 +203,29 @@ These are comparative results obtained according tests done based on our **train
 
 #### Where:
 
-**Accuracy**
+- **Accuracy**
 
-The accuracy is intuitively the ability of correctly classifier samples. The best value is 1 and the worst value is 0.
+  - The accuracy is intuitively the ability of correctly classifier samples. The best value is 1 and the worst value is 0.
 
-**Precision**
+- **Precision**
 
-The precision is intuitively the ability of the classifier not to label as positive a sample that is negative. The best value is 1 and the worst value is 0.
+  - The precision is intuitively the ability of the classifier not to label as positive a sample that is negative. The best value is 1 and the worst value is 0.
 
-**Recall**
+- **Recall**
 
-The recall is intuitively the ability of the classifier to find all the positive samples. The best value is 1 and the worst value is 0.
+  - The recall is intuitively the ability of the classifier to find all the positive samples. The best value is 1 and the worst value is 0.
 
-**F1**
+- **F1**
 
-The F1 score can be interpreted as a weighted average of the precision and recall, where an F1 score reaches its best value at 1 and worst score at 0.
+  - The F1 score can be interpreted as a weighted average of the precision and recall, where an F1 score reaches its best value at 1 and worst score at 0.
 
-**AUC**
+- **AUC**
 
-Compute Area Under the Receiver Operating Characteristic Curve (ROC AUC) from prediction scores. The best value is 1 and the worst value is 0.
+  - Compute Area Under the Receiver Operating Characteristic Curve (ROC AUC) from prediction scores. The best value is 1 and the worst value is 0.
 
-**MCC**
+- **MCC**
 
-The MCC is in essence a correlation coefficient value between -1 and +1. A coefficient of +1 represents a perfect prediction, 0 an average random prediction and -1 an inverse prediction.
+  - The MCC is in essence a correlation coefficient value between -1 and +1. A coefficient of +1 represents a perfect prediction, 0 an average random prediction and -1 an inverse prediction.
 
 ### The final Results:
 
