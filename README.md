@@ -69,17 +69,36 @@ This prediction code might be way advanced according your As Is. But keep in min
 
 ## Requirements
 
-:black_medium_small_square: Operational System Windows, Linux or macOS
+:black_medium_square: Operational System Windows, Linux or macOS
 
-:black_medium_small_square: Python 3.6 or later
+:black_medium_square: Python 3.6 or later
 [Click here to Download Latest Python](https://www.python.org/downloads/)
 
-:black_medium_small_square: Jupyter notebook 5.7.8 or later
+:black_medium_square: Jupyter notebook 5.7.8 or later
 [Click here to How to install Jupyter Notebbok](https://jupyter.org/install)
 
 ## How to use
 
-Make sure to succeed on all requirements above mentioned. Download the files on
+Make sure to succeed on all requirements above mentioned. 
+
+Download the files on your computer and double check if all data is on the same folder. Remember to change te code below according file's name or even directory:
+
+```
+dataset = pd.read_csv('base.csv', encoding='ISO-8859-1', sep=';')
+```
+
+For more further info, please read this article:
+
+[Handling .csv file on Python](https://docs.python.org/2/library/csv.html)
+
+If you are using Jupyter Notebook, click on the first line which cna be identified by the [1] on the left can shown below:
+
+![line](https://user-images.githubusercontent.com/5126535/58935100-c5584b00-8742-11e9-8b70-e4f9bf537b43.png)
+
+After hit the run button on the toolbar up as shown below:
+
+![run](https://user-images.githubusercontent.com/5126535/58935146-f20c6280-8742-11e9-8292-25b095ac022e.png)
+
 
 ## Project Features
 
