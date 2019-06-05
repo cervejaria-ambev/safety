@@ -67,26 +67,20 @@ This prediction code might be way advanced according your As Is. But keep in min
 
 :heavy_exclamation_mark: The dataset **DOES NOT** reflect facts. All data was changed with simulated values.
 
-
 ## Requirements
 
-#### Operational System Windows, Linux or macOS
-#### Python 3.6 or later
-#### Jupyter notebook 5.7.8 or later
+:black_medium_small_square: Operational System Windows, Linux or macOS
+
+:black_medium_small_square: Python 3.6 or later
+[Click here to Download Latest Python](https://www.python.org/downloads/)
+
+:black_medium_small_square: Jupyter notebook 5.7.8 or later
+[Click here to How to install Jupyter Notebbok](https://jupyter.org/install)
 
 ## How to use
 
-To use the current release:
+Make sure to succeed on all requirements above mentioned. Download the files on
 
- - pip install safety
-```
-do stuff
-```
-
- - Do more stuff
-```
-do stuff
-```
 ## Project Features
 
 - [x] **Procedures to Avoid Overfit**
@@ -167,21 +161,22 @@ The actual log send by email is similar as shown below:
   
 ![68747470733a2f2f7069637473686172652e6e65742f676f796e7a6d2e706e67](https://user-images.githubusercontent.com/5126535/58933602-38ab8e00-873e-11e9-8423-2189d029933d.png)
 
-- [x] **Algorithm Choice** 
-
-Through the development process we tried several machine learning algorithms, such as random forest, Support vector clustering (SVC), Artificial neural networks (ANN). The best fit for our model according all data we used was the XPTO.
-
-Please, fell free to use all options according your dataset.
-
-For reference, please read the following:
-
-[Scikit Python Library](https://scikit-learn.org/stable/supervised_learning.html#supervised-learning)
 
 ## Results
 
-Comparative alternatives
+Through the development process we tried several machine learning algorithms, such as random forest, Support vector clustering (SVC), Artificial neural networks (ANN). We have set the train test database to 20% from original database.
 
-### Metrics
+Please, fell free to use all options according your dataset.
+
+For further reference and understanding, please read the following:
+
+[Scikit Python Library](https://scikit-learn.org/stable/supervised_learning.html#supervised-learning)
+
+These are comparative results obtained according tests done based on our **train** dataset: 
+
+![68747470733a2f2f7069637473686172652e6e65742f7568633267702e706e67](https://user-images.githubusercontent.com/5126535/58933584-23cefa80-873e-11e9-8e5c-3921c01c7f1d.png)
+
+Where:
 
 #### Accuracy
 The accuracy is intuitively the ability of correctly classifier samples. The best value is 1 and the worst value is 0.
@@ -196,10 +191,18 @@ Compute Area Under the Receiver Operating Characteristic Curve (ROC AUC) from pr
 #### MCC
 The MCC is in essence a correlation coefficient value between -1 and +1. A coefficient of +1 represents a perfect prediction, 0 an average random prediction and -1 an inverse prediction.
 
+The best fit for our model according all data we used was the the combinacion of classifier SVC and hybrid sampling SMOTEENN. SMOTEENN combine over and under-sampling using SMOTE and Edited Nearest Neighbours.
+
+Therefore we finally applied the algorithm on the **test** dataset
+
 The final Results:
 
-![68747470733a2f2f7069637473686172652e6e65742f7568633267702e706e67](https://user-images.githubusercontent.com/5126535/58933584-23cefa80-873e-11e9-8e5c-3921c01c7f1d.png)
-
+accuracy:  0.76859
+precision: 0.10608
+recall:    0.73761
+f1:        0.18548
+auc:       0.75367
+mcc:       0.21793
 ## Next Steps
 
 - [ ] Finish my changes
