@@ -227,11 +227,11 @@ These are comparative results obtained according tests done based on our **train
 
   - The MCC is in essence a correlation coefficient value between -1 and +1. A coefficient of +1 represents a perfect prediction, 0 an average random prediction and -1 an inverse prediction.
 
-### The final Results:
+### Deployment on test dataset:
 
 The best fit for our model according all data we used was the the combinacion of classifier SVC and hybrid sampling SMOTEENN. SMOTEENN combine over and under-sampling using SMOTE and Edited Nearest Neighbours.
 
-Therefore we finally applied the algorithm on the **test** dataset
+Therefore we finally applied the algorithm on the **test** dataset and got the following results:
 
 **accuracy**  0.76859 (76,86%)
 
