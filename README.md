@@ -135,7 +135,7 @@ In order to reach a better model further on the algorithm, the data cleasing pro
 
 We developed a solution in order to give visibility about the algorithm. Mainly focused when it is schueduled in a daily basis. That way it is possible to get feedback from the algorithm sent to an e-mail, for example, if all steps was done as expected or even the accuracy and recall.
   
-The code is under Log_Email folder. We used Gmail as domain, but you can use any domain as desired or even use a local SMTP server. In order to do so, Google requests a pre-work, such as allowing SMTP and connections inside config. The steps can be seen here:
+The code is under Log_Email folder. We used Gmail as domain, but you can use any domain as desired or even use a local SMTP server. In order to do so, Google requests a pre-work, such as allowing SMTP and connections inside security central configuration. The steps can be seen here:
 
 For more information about SMTP and Gmail, please read:
 
@@ -162,7 +162,7 @@ For more information about SMTP on python, please read:
 
 The log is through a dataframe. We have included one example at first step : Reading Database. 
 
-Change the row number and include the code below as desired steps that you want to get feedback from.
+Change the row number and include the code below as desired steps that you want to get feedback from. Also remember to change file's name accordingly.
 
 #### Change Code
 
@@ -180,7 +180,7 @@ except:
   df.iloc[0, df.columns.get_loc('Comment')] = 'Import dos Dados com FALHA'
   validador_log()
 ```
-Make sure to add the feedback from algorithm as needed as example above.
+Add the code along the code as needed.
 
 The actual log send by email is similar as shown below:
   
