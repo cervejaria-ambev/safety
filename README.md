@@ -247,11 +247,13 @@ Therefore we finally applied the algorithm on the **test** dataset and got the f
 
 ## Next Steps
 
-- [ ] Finish my changes
+- [ ] Text Review
 
-- [ ] Push my commits to GitHub
+- [ ] Detail / Review E-mail FUP configuration and use
 
-- [ ] Open a pull request
+- [ ] Create data description
+
+- [ ] Add final result on main algorithm
 
 ## License
 
