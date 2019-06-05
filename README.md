@@ -1,4 +1,4 @@
-<div align="center">
+<div>
   <img src="https://pasteboard.co/IhXGT1m.png">
 </div>
 
