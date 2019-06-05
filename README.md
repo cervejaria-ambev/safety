@@ -30,7 +30,7 @@ We are here, trough this opensource code, trying to colaborate with the communit
 
 ### Backlog
 
-The first version of this project was developed using cloud services, such as Azure plataform from Microsft. We had to first analyse with business all informations that might be most relevant and then, automate all reports from different sources. The algorithm uses those automated reports as inputs, then handled through R, SQL and python languages. As output from the algorithm, there is a csv file feeding a structured capable to update a database on cloud. A dashboard is after that, plugged to this cloud database.
+The first version of this project was developed using cloud services, such as Azure plataform from Microsft. We had to first analyse with business all informations that might be most relevant and then, automate all reports from different sources. The algorithm uses those automated reports as inputs, then handled through R, SQL and python languages. As output from the algorithm, there is a csv file feeding a structured capable to update a database on cloud. A dashboard is then connected on this cloud database.
 
 It is important to mention that this project was only able due a long term vision by Ambev, that along years have been working to prepare data to be used.
 
@@ -69,12 +69,12 @@ This prediction code might be way advanced according your As Is. But keep in min
 
 ## Requirements
 
-:black_medium_square: Operational System Windows, Linux or macOS
+:black_large_square: Operational System Windows, Linux or macOS
 
-:black_medium_square: Python 3.6 or later
+:black_large_square: Python 3.6 or later
 [Click here to Download Latest Python](https://www.python.org/downloads/)
 
-:black_medium_square: Jupyter notebook 5.7.8 or later
+:black_large_square: Jupyter notebook 5.7.8 or later
 [Click here to How to install Jupyter Notebbok](https://jupyter.org/install)
 
 ## How to use
