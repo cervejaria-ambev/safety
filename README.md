@@ -20,7 +20,7 @@ We hope you copy, use and evolve it. Help us to make the world a better place an
 
 The main goal for the project is predict unsafe conditions that could lead to an accident, called TRI - Total Recordable Injuriues. Thefore, developing a algorithm that outputs to breweries, the probability if an accident is going to happen soon. 
 
-As much important as the prediction, the next steps are a big part of the ecosystem. What to do with the information and what action need to be taken is crucial to apply to the field. So, below is a basic diagram regarding the strategy delpoyed:
+As much important as the prediction, the next steps are a big part of the ecosystem. What to do with the information and what action need to be taken is crucial to apply to the field. So, below is a basic diagram regarding the strategy deployed:
 
 ![safety image](https://user-images.githubusercontent.com/5126535/58933558-09951c80-873e-11e9-9b65-6e78669c7b51.png)
 
