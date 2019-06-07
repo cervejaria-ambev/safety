@@ -189,6 +189,8 @@ The actual log send by email is similar as shown below:
 
 ## Results
 
+### Models bechmarking
+
 Through the development process we tried several machine learning algorithms, such as random forest, Support vector clustering (SVC), Artificial neural networks (ANN). We have set the train test database to 20% from original database. All further details can be found directly on the code.
 
 Please, fell free to use all options according your dataset.
@@ -244,6 +246,13 @@ Therefore we finally applied the algorithm on the **test** dataset and got the f
 **auc:**       0.75367 (75,37%)
 
 **mcc:**       0.21793 (21,79%)
+
+### Deployment on real dataset
+
+The image below shows how the model, when deployed into the actual data, the result of the prediction:
+
+![image](https://user-images.githubusercontent.com/5126535/59135283-c2cd3f80-8954-11e9-9e55-e5be503d751c.png)
+
 
 ## Next Steps
 
