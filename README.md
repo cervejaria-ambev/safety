@@ -249,7 +249,7 @@ Therefore we finally applied the algorithm on the **test** dataset and got the f
 
 ### Deployment on real dataset
 
-The image below shows how the model, when deployed into the actual data, the result of the prediction:
+The image below shows the prediction results when the model was applied into the actual data:
 
 ![image](https://user-images.githubusercontent.com/5126535/59135283-c2cd3f80-8954-11e9-9e55-e5be503d751c.png)
 
