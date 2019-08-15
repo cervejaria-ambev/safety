@@ -266,6 +266,8 @@ The image below shows the prediction results when the model was applied into the
 
 - [ ] Create FAQ (Not real data, Not production version, ...)
 
+- [ ] ADD integration code to save output data to a SQL Database
+
 ## License
 
 [MIT License](LICENSE)
