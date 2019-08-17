@@ -257,7 +257,7 @@ The image below shows the prediction results when the model was applied into the
 
 Run our experiments online with Binder. Click in the image below:
 
-[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/nlp-pucrs/prescription-outliers/master)
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/cervejaria-ambev/safety/master)
 
 ## Next Steps
 
