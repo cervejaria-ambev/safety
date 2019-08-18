@@ -1,0 +1,11 @@
+name: my-environment
+dependencies:
+  - pandas
+  - sklearn
+  - matplotlib
+  - numpy
+  - scipy
+  - xgboost
+  - mlxtend
+  - imblearn
+  - seaborn
