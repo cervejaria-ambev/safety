@@ -253,6 +253,11 @@ The image below shows the prediction results when the model was applied into the
 
 ![image](https://user-images.githubusercontent.com/5126535/59135283-c2cd3f80-8954-11e9-9e55-e5be503d751c.png)
 
+### Run Online
+
+Run our experiments online with Binder. Click in the image below:
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cervejaria-ambev/safety/master?filepath=code/Safety_Algorithm.ipynb)
 
 ## Next Steps
 
