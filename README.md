@@ -133,7 +133,7 @@ In order to reach a better model further on the algorithm, the data cleasing pro
   
 - [x] **Log to Email**
 
-We developed a solution in order to give visibility about the algorithm. Mainly focused when it is schueduled in a daily basis. That way it is possible to get feedback from the algorithm sent to an e-mail, for example, if all steps was done as expected or even the accuracy and recall.
+We developed a solution in order to give visibility about the algorithm. Mainly focused when it is scheduled in a daily basis. That way it is possible to get feedback from the algorithm sent to an e-mail, for example, if all steps was done as expected or even the accuracy and recall.
   
 The code is under Log_Email folder. We used Gmail as domain, but you can use any domain as desired or even use a local SMTP server. In order to do so, Google requests a pre-work, such as allowing SMTP and connections inside security central configuration. The steps can be seen here:
 
