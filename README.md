@@ -33,7 +33,7 @@ Changelog
 - 1.0 
 Initial Release
 - 1.1 
-⋅⋅⋅Updated Git Structure according CRISP-DM
+Updated Git Structure according CRISP-DM
 
 
 Project Organization
