@@ -28,6 +28,62 @@ Ideally after steps above all info gathered, by procedure, has to be insert to a
 
 We are here, trough this opensource code, trying to colaborate with the community. It might not be the perfect solution for all uses, but all necessary tools that you might need in order to do somenthing similiar is implemented in the code, a few examples can be seen below at section "Project Features"
 
+Changelog
+------------
+- 1.0 
+Initial Release
+- 1.1 
+⋅⋅⋅Updated Git Structure according CRISP-DM
+
+
+Project Organization
+------------
+
+    ├── LICENSE
+    ├── Makefile           <- Makefile with commands like `make data` or `make train`
+    ├── README.md          <- The top-level README for developers using this project.
+    ├── data
+    │   ├── external       <- Data from third party sources.
+    │   ├── interim        <- Intermediate data that has been transformed.
+    │   ├── processed      <- The final, canonical data sets for modeling.
+    │   └── raw            <- The original, immutable data dump.
+    │
+    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
+    │
+    ├── models             <- Trained and serialized models, model predictions, or model summaries
+    │
+    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
+    │                         the creator's initials, and a short `-` delimited description, e.g.
+    │                         `1.0-jqp-initial-data-exploration`.
+    │
+    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
+    │
+    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
+    │   └── figures        <- Generated graphics and figures to be used in reporting
+    │
+    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
+    │                         generated with `pip freeze > requirements.txt`
+    │
+    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
+    ├── src                <- Source code for use in this project.
+    │   ├── __init__.py    <- Makes src a Python module
+    │   │
+    │   ├── data           <- Scripts to download or generate data
+    │   │   └── make_dataset.py
+    │   │
+    │   ├── features       <- Scripts to turn raw data into features for modeling
+    │   │   └── build_features.py
+    │   │
+    │   ├── models         <- Scripts to train models and then use trained models to make
+    │   │   │                 predictions
+    │   │   ├── predict_model.py
+    │   │   └── train_model.py
+    │   │
+    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
+    │       └── visualize.py
+    │
+    └── tox.ini            <- tox file with settings for running tox; see tox.testrun.org
+    
 ### Backlog
 
 The first version of this project was developed using cloud services, such as Azure plataform from Microsft. We had to first analyse with business all informations that might be most relevant and then, automate all reports from different sources. The algorithm uses those automated reports as inputs, then handled through R, SQL and python languages. As output from the algorithm, there is a csv file feeding a structured capable to update a database on cloud. A dashboard is then connected on this cloud database.
@@ -193,7 +249,7 @@ The actual log send by email is similar as shown below:
 
 Through the development process we tried several machine learning algorithms, such as random forest, Support vector clustering (SVC), Artificial neural networks (ANN). We have set the train test database to 20% from original database. All further details can be found directly on the code.
 
-Please, fell free to use all options according your dataset.
+It is import to set those changes up according your dataset and tests.
 
 For further reference and understanding, please read the following:
 
@@ -201,7 +257,14 @@ For further reference and understanding, please read the following:
 
 These are comparative results obtained according tests done based on our **train** dataset: 
 
-![68747470733a2f2f7069637473686172652e6e65742f7568633267702e706e67](https://user-images.githubusercontent.com/5126535/58933584-23cefa80-873e-11e9-8e5c-3921c01c7f1d.png)
+|**model**|**Accuracy(%)**|**Precision(%)**|**Recall(%)**|**F1(%)**|**AUC_ROC(%)**|**MCC(%)**|
+| :------------- |:-------------:| :-----:|:-----:|:-----:|:-----:|:-----:|
+| SVC     | 75,79 | 10,79 |   71,53|18,76|73,75|21,01|
+| Linear SVC      | 74,55     |   10,45|72,80|18,27|73,71|20,64|
+| Random Forest Classifier | 65,25      |    8,68|82,87|15,71|73,70|19,00|
+| Logistic Regression | 77,14   |    11,09 |69,07|19,11|73,27|21,02|
+| XGB Classifier | 85,61     |    13,71 |50,60|21,57|68,82|20,76|
+
 
 #### Where:
 
@@ -235,23 +298,31 @@ The best fit for our model according all data we used was the the combinacion of
 
 Therefore we finally applied the algorithm on the **test** dataset and got the following results:
 
-**accuracy**  0.76859 (76,86%)
-
-**precision:** 0.10608 (10,61%)
-
-**recall:**    0.73761 (73,76%)
-
-**f1:**        0.18548 (18,55%)
-
-**auc:**       0.75367 (75,37%)
-
-**mcc:**       0.21793 (21,79%)
+|**Variables**|**Raw Value** | **%** |
+| :------------- |:-------------:| :-----:|
+| accuracy     | 0.76859 | 76,86% |
+| precision      | 0.10608      |   10,61% |
+| recall | 0.73761      |    73,76% |
+| f1 | 0.18548     |    18,55% |
+| auc | 0.75367      |    75,37% |
+| mcc | 0.21793      |    21,79% |
 
 ### Deployment on real dataset
 
-The image below shows the prediction results when the model was applied into the actual data:
+The table below shows the prediction results when the model was applied into the actual data:
 
-![image](https://user-images.githubusercontent.com/5126535/59135283-c2cd3f80-8954-11e9-9e55-e5be503d751c.png)
+|**Date**|**Brewery**|**Predicted Accident**|**Scored Probabilities(%)**|
+| :------------- |:-------------:| :-----:|:-----:|
+|09/11/2018|Brewery EE|1|71,69|
+|09/11/2018|Brewery EE|0|45,66|
+|09/11/2018|Brewery EE|0|34,54|
+|09/11/2018|Brewery EE|0|21,07|
+|09/11/2018|Brewery EE|0|19,14|
+|09/11/2018|Brewery EE|0|17,57|
+|09/11/2018|Brewery EE|0|15,34|
+|09/11/2018|Brewery EE|0|14,60|
+|09/11/2018|Brewery EE|0|13,90|
+|09/11/2018|Brewery EE|0|13,62|
 
 ## Run Online
 
@@ -277,51 +348,5 @@ Run our experiments online with Binder. Click in the image below:
 
 [MIT License](LICENSE)
 
-Project Organization
-------------
 
-    ├── LICENSE
-    ├── Makefile           <- Makefile with commands like `make data` or `make train`
-    ├── README.md          <- The top-level README for developers using this project.
-    ├── data
-    │   ├── external       <- Data from third party sources.
-    │   ├── interim        <- Intermediate data that has been transformed.
-    │   ├── processed      <- The final, canonical data sets for modeling.
-    │   └── raw            <- The original, immutable data dump.
-    │
-    ├── docs               <- A default Sphinx project; see sphinx-doc.org for details
-    │
-    ├── models             <- Trained and serialized models, model predictions, or model summaries
-    │
-    ├── notebooks          <- Jupyter notebooks. Naming convention is a number (for ordering),
-    │                         the creator's initials, and a short `-` delimited description, e.g.
-    │                         `1.0-jqp-initial-data-exploration`.
-    │
-    ├── references         <- Data dictionaries, manuals, and all other explanatory materials.
-    │
-    ├── reports            <- Generated analysis as HTML, PDF, LaTeX, etc.
-    │   └── figures        <- Generated graphics and figures to be used in reporting
-    │
-    ├── requirements.txt   <- The requirements file for reproducing the analysis environment, e.g.
-    │                         generated with `pip freeze > requirements.txt`
-    │
-    ├── setup.py           <- makes project pip installable (pip install -e .) so src can be imported
-    ├── src                <- Source code for use in this project.
-    │   ├── __init__.py    <- Makes src a Python module
-    │   │
-    │   ├── data           <- Scripts to download or generate data
-    │   │   └── make_dataset.py
-    │   │
-    │   ├── features       <- Scripts to turn raw data into features for modeling
-    │   │   └── build_features.py
-    │   │
-    │   ├── models         <- Scripts to train models and then use trained models to make
-    │   │   │                 predictions
-    │   │   ├── predict_model.py
-    │   │   └── train_model.py
-    │   │
-    │   └── visualization  <- Scripts to create exploratory and results oriented visualizations
-    │       └── visualize.py
-    │
-    └── tox.ini            <- tox file with settings for running tox; see tox.testrun.org
 
