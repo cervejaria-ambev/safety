@@ -31,10 +31,29 @@ We are here, trough this opensource code, trying to colaborate with the communit
 Changelog
 ------------
 - 1.0 
-Initial Release
+    - Initial Release
 - 1.1 
-Updated Git Structure according CRISP-DM
+    - Updated Git Structure according CRISP-DM
+    
+- 1.2
+    - Updated readme with data detailed information
+    - Updated database until Jan 2020 information
 
+## Contribuitors
+
+:beer: Brayan C. Ksenhuck
+
+:beer: Cassio O. Medeiros
+
+:beer: Fabricio O. Bezerra
+
+:beer: Leonardo G.Rigueto
+
+:beer: Mario E. M. Vieira 
+
+:beer: Renata C. G. Castanha
+
+:beer: Thiago Lechuga
 
 Project Organization
 ------------
@@ -84,7 +103,7 @@ Project Organization
     │
     └── tox.ini            <- tox file with settings for running tox; see tox.testrun.org
     
-### Backlog
+## Backlog
 
 The first version of this project was developed using cloud services, such as Azure plataform from Microsft. We had to first analyse with business all informations that might be most relevant and then, automate all reports from different sources. The algorithm uses those automated reports as inputs, then handled through R, SQL and python languages. As output from the algorithm, there is a csv file feeding a structured capable to update a database on cloud. A dashboard is then connected on this cloud database.
 
@@ -103,21 +122,76 @@ There are fews mandatory steps in order to deliver a solution based on predictio
 
 This prediction code might be way advanced according your As Is. But keep in mind all the benefits that could be obtained when a long term vision is made. This project shows only one possibility, there are plenty other ideas that can be developed.
 
-## Contribuitors
+## Data
 
-:beer: Brayan C. Ksenhuck
+|**Dataset label**|**What**|**From**|
+|:-------------|:-------------|:-------------|
+|Data|Date|General|
+|Ano|Year|General|
+|Mes|Month|General|
+|Sem|Week|General|
+|Unidade|Brewery|General|
+|ID_UNIDADE|Brewery ID|General|
+|QLP|Workers|General|
+|Altura|Height|HR/Safety Team|
+|Atencao_Postural|Postural Attention records|HR/Safety Team|
+|Celular|Cellphone|HR/Safety Team|
+|Eletricidade|Eletricity|HR/Safety Team|
+|EPI|Individual Protection Equipment|Safety Team|
+|Equipamento_de_Elevacao|if High procedure equipament was used or not|Safety Team|
+|Espaco_Confinado|Confined space|Safety Team|
+|LOTO|-|Safety Team|
+|Manuseio_de_Vidro|Records regarding glass usage|Safety Team|
+|Piso_Molhado|Records regarding wet floor|Safety Team|
+|PT|-|Safety Team|
+|Quimicos|Records regarding chemestry usage|Safety Team|
+|SAM|-|Safety Team|
+|Transporte|Records regarding transportation equipaments|HR/Safety Team|
+|Indefinido|undefined records (generally records that didnt fit on above classifications )|HR/Safety Team|
+|Atos_inseguros_no_dia|Total of Unsafe Acts records on actual date|Safety Team|
+|Atos_inseguros_15_dias_antes|Total of Unsafe Acts  records 15 days before actual date|Safety Team|
+|Atos_inseguros_30_dias_antes|Total of Unsafe Acts  records 30 days before actual date|Safety Team|
+|Atos_inseguros_45_dias_antes|Total of unsafe acts records 45 days before actual date|Safety Team|
+|incidentes_no_dia|Total of incidents records on actual date|Safety Team|
+|incidentes_em_15_dias|Total of incidents records 15 days before actual date|Safety Team|
+|incidentes_em_30_dias|Total of incidents records 30 days before actual date|Safety Team|
+|incidentes_em_45_dias|Total of incidents records 45 days before actual date|Safety Team|
+|abordagens_positivas|Positive feedback|Safety Team|
+|abordagens_positivas_15_dias_antes|Total of Positive feedback records 15 days before actual date|Safety Team|
+|abordagens_positivas_30_dias_antes|Total of Positive feedback records 30 days before actual date|Safety Team|
+|abordagens_positivas_45_dias_antes|Total of Positive feedback records 45 days before actual date|Safety Team|
+|Turnover|Turnover|HR|
+|Horas_Excedentes|Overtime|HR|
+|Interjornadas|Time between the worker has left the site until the returning|HR|
+|Cidade|City|General|
+|Cidade_Clima|City|General|
+|Volume_prod|Production Volume|Supply Team|
+|Parada_Automacao|Production Stop due automation problem|Safety Team/Datalake|
+|Parada_Eletrica|Production Stop due electrical problem|Safety Team/Datalake|
+|Parada_HSMO|Production Stop due medical situation|Safety Team/Datalake|
+|Parada_Instrumentacao|Production Stop due instrumentation problem|Safety Team/Datalake|
+|Parada_Logistica|Production Stop due logistics|Safety Team/Datalake|
+|Parada_Mecanica|Production Stop due mechanics|Safety Team/Datalake|
+|Parada_Operacional|Production Stop due operational problems|Safety Team/Datalake|
+|Parada_Processo|Production Stop due process problems|Safety Team/Datalake|
+|Parada_Programada|Scheduled Production Stop|Safety Team/Datalake|
+|Parada_Qualidade|Production Stop due quality problems|Safety Team/Datalake|
+|Parada_Suprimentos|Production Stop due resources problems|Safety Team/Datalake|
+|Parada_Utilidades|Production Stop due utilities problems|Safety Team/Datalake|
+|total_paradas|Total Production Stops|Safety Team/Datalake|
+|QTD_TRI|TRI Quantity|Safety Team|
+|QTD_FAI|FAI Quantity|Safety Team|
+|QTD_FAI_15_dias_antes|number of FAI records 15 days before actual date|Safety Team|
+|QTD_FAI_30_dias_antes|Number of FAI records 30 days before actual date|Safety Team|
+|QTD_FAI_45_dias_antes|Number of FAI records 45 days before actual date|Safety Team|
+|AVGTEMP_C|Average Temperature|API|
+|MAXTEMP_C|Highest Temperature|API|
+|MINTEMP_C|Lowest Temperature|API|
+|TOTALPRECIP_MM|Total Rainfall|API|
+|Q1|Question 1|Engagement Survey|
+|...|...|...|
+|Q74|Question 74|Engagement Survey|
 
-:beer: Cassio O. Medeiros
-
-:beer: Fabricio O. Bezerra
-
-:beer: Leonardo G.Rigueto
-
-:beer: Mario E. M. Vieira 
-
-:beer: Renata C. G. Castanha
-
-:beer: Thiago Lechuga
 
 ## Important Notes
 
@@ -258,12 +332,12 @@ For further reference and understanding, please read the following:
 These are comparative results obtained according tests done based on our **train** dataset: 
 
 |**model**|**Accuracy(%)**|**Precision(%)**|**Recall(%)**|**F1(%)**|**AUC_ROC(%)**|**MCC(%)**|
-| :------------- |:-------------:| :-----:|:-----:|:-----:|:-----:|:-----:|
-| SVC     | 75,79 | 10,79 |   71,53|18,76|73,75|21,01|
-| Linear SVC      | 74,55     |   10,45|72,80|18,27|73,71|20,64|
-| Random Forest Classifier | 65,25      |    8,68|82,87|15,71|73,70|19,00|
-| Logistic Regression | 77,14   |    11,09 |69,07|19,11|73,27|21,02|
-| XGB Classifier | 85,61     |    13,71 |50,60|21,57|68,82|20,76|
+|:-------------|:-------------:|:-----:|:-----:|:-----:|:-----:|:-----:|
+|SVC|75,79|10,79|71,53|18,76|73,75|21,01|
+|Linear SVC |74,55|10,45|72,80|18,27|73,71|20,64|
+|Random Forest Classifier|65,25|8,68|82,87|15,71|73,70|19,00|
+|Logistic Regression|77,14|11,09|69,07|19,11|73,27|21,02|
+|XGB Classifier|85,61|13,71|50,60|21,57|68,82|20,76|
 
 
 #### Where:
