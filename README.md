@@ -410,8 +410,6 @@ Run our experiments online with Binder. Click in the image below:
 
 - [ ] Detail / Review E-mail FUP configuration and use
 
-- [ ] Create data description
-
 - [ ] Add final result on main algorithm
 
 - [ ] Create FAQ (Not real data, Not production version, ...)
