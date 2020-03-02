@@ -30,14 +30,15 @@ We are here, trough this opensource code, trying to colaborate with the communit
 
 Changelog
 ------------
-- 1.0 
+- **1.0 **
     - Initial Release
-- 1.1 
+
+- **1.1** 
     - Updated Git Structure according CRISP-DM
     
-- 1.2
-    - Updated readme with data detailed information
-    - Updated database until Jan 2020 information
+- **1.2**
+    - Updated readme with deeper details about the data section
+    - Updated database until Jan/2020
 
 ## Contribuitors
 
