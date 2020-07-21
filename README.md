@@ -403,7 +403,7 @@ The table below shows the prediction results when the model was applied into the
 
 Run our experiments online with Binder. Click in the image below:
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cervejaria-ambev/safety/master?filepath=code/Safety_Algorithm.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cervejaria-ambev/safety/master?filepath=notebooks/Safety_Algorithm.ipynb)
 
 ## Next Steps
 
